@@ -4,7 +4,7 @@ if(!require(data.table)) install.packages("data.table")
 if(!require(ggmap)) install.packages("ggmap")
 if(!require(lubridate)) install.packages("lubridate")
 
-dat <- fread("trafficdatav8.csv", header = T, sep = ",", colClasses = 'character')
+dat <- fread("LA-Traffic-Data.csv", header = T, sep = ",", colClasses = 'character')
 
 ###Cleaning data
 
